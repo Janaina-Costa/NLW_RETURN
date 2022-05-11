@@ -9,11 +9,10 @@ app.use(express.json())
 app.use(routes)
 
 const HOST = 'http://localhost:'
-const port = 3333
 
 
 
-app.listen(process.env.PORT|| port, ()=>{
-    console.log(`Running on port ${HOST}${port}...`)
+app.listen(process.env.PORT || 3333, ()=>{
+    console.log(`Running on port ${HOST}${3333}...`)
     
 })
