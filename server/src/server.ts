@@ -12,7 +12,7 @@ const HOST = 'http://localhost:'
 
 
 
-app.listen(process.env.PORT || 3333, ()=>{
-    console.log(`Running on port ${HOST}${3333}...`)
+app.listen(process.env.PORT, ()=>{
+    console.log(`Running on port ${HOST}${process.env.PORT}...`)
     
 })
